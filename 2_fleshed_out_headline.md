@@ -29,4 +29,4 @@ sum = list(map(lambda x: x*x,f))
 sum  
 [1, 4, 9]  
 
-このようにmap関数の中にlambda関数を組み込むと、綺麗にまとまります。
+このようにmap関数の中にlambdaを組み込むと、綺麗にまとまります。
