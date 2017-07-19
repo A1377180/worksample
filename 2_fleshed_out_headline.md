@@ -13,7 +13,9 @@ def sum(x,y) :
     return x + y  
 sum(1,2)  
 3  
-になります。 
+になります。  
+  
+  
 lambdaを使ってみましょう。  
 f = lambda x, y: x + y  
 print(f(1,2))  
