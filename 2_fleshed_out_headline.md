@@ -17,8 +17,8 @@ sum(1,2)
   
   
   
-lambdaを使ってみましょう。   
-f = lambda x, y: x + y   
+lambdaを使ってみましょう。  
+f = lambda x, y: x + y  
 print(f(1,2))  
 3
 
