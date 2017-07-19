@@ -4,13 +4,12 @@ lmbdaを使用することでプログラムのコードを簡潔にできると
   
 #### defとの比較  
 普通、関数を定義する時はdefを用います。まずはdefで足し算をやってみます。  
-def sum(x,y) :  
-    　return x + y　　    
-sum(1,2)　　
-3
+def sum(x,y) :  
+        return x + y  
+sum(1,2)  
+3  
 になります。  
   
-  
 次にlambdaを使ってみましょう。   
 f = lambda x, y: x + y  
 print(f(1,2))  
