@@ -12,7 +12,7 @@ def 関数名(引数):  
 def sum(x,y) :  
     return x + y  
 sum(1,2)  
-3  
+3  
 になります。  
   
 lambdaを使ってみましょう。  
