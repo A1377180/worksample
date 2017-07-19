@@ -4,24 +4,29 @@ lmbdaを使用することでプログラムのコードを簡潔にできると
   
 #### defとの比較  
 普通、関数を定義する時はdefを用います。まずはdefで足し算をやってみます。  
+
 def sum(x,y) :  
          return x + y  
 sum(1,2)  
 3  
+
 になります。  
   
 次にlambdaを使ってみましょう。  
+
 f = lambda x, y: x + y  
 print(f(1,2))  
 3  
+
 このlambdaの処理は上で行ったdefと同じことができています。defを使った時の上２行がlambdaを使うことによって１行にまとまります。  
 
 #### 他の関数と組み合わせる
 lambdaは他の関数と組み合わせて使うことでメリットがわかります。  
 例としてmap()と組み合わせてみます。  
-f = [1, 2, 3]  
-sum = list(map(lambda x: x*x,f))  
-sum  
+
+f = [1, 2, 3]  
+sum = list(map(lambda x: x*x,f))  
+sum  
 [1, 4, 9]  
 
 このようにmap関数の中にlambda関数を組み込むと、綺麗にまとまります。
